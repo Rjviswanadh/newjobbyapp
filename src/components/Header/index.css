@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.jobs {
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.home-jobs-button {
+  width: 400px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-bg-color {
+  background-color: #272727;
+  justify-content: space-between;
+  height: 90px;
+}
+.home {
+  color: white;
+  text-decoration: none;
+}
+.website-logo-image {
+  height: 40px;
+  margin-bottom: 20px;
+}
+button {
+  color: white;
+}
+li {
+  list-style-type: none;
+}

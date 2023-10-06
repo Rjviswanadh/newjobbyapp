@@ -1,0 +1,16 @@
+.not-found {
+  margin-left: 350px;
+  height: 500px;
+  width: 450px;
+}
+.not-found-bg {
+  background-color: black;
+  height: auto;
+  background-size: cover;
+}
+.h-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

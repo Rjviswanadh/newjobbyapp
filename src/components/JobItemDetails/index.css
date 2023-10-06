@@ -1,0 +1,84 @@
+.bg-color-jobs {
+  overflow: hidden;
+  background-color: black;
+  background-size: cover;
+  padding: 40px;
+}
+.bg-container {
+  background-color: #64748b;
+  width: 100%;
+  padding: 20px;
+}
+.logo-title-rating {
+  display: flex;
+}
+img {
+  height: 90px;
+  width: 90px;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+.location-salary {
+  display: flex;
+  justify-content: space-between;
+}
+.location-type {
+  display: flex;
+}
+.city {
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.go {
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.skills-set {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-at-company {
+  display: flex;
+}
+.description {
+  width: 800px;
+}
+.life-img {
+  width: 300px;
+  height: 150px;
+}
+.similar-jobs-container {
+  display: flex;
+  margin-left: 0px;
+  padding: 0px;
+  width: 100vw;
+}
+
+@media screen and (max-width: 600px) {
+  .similar-jobs-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    height: 100%;
+    border: 1px solid green;
+    flex-wrap: wrap;
+  }
+}
+.similar {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.go-location {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+hr {
+  margin-top: 15px;
+}
+.emp {
+  margin-left: 5px;
+}
+.header33 {
+  position: fixed;
+}

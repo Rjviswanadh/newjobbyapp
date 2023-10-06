@@ -1,0 +1,150 @@
+.jobs-container {
+  background-color: #121212;
+  min-height: 100vh;
+  width: auto;
+}
+.jobs-bottom {
+  display: flex;
+}
+.left-jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding-left: 15px;
+}
+
+.right-jobs {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile-view {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  max-width: 280px;
+  height: 240px;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+}
+
+.profile-heading {
+  color: #6366f1;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.profile-para {
+  color: #64748b;
+  font-size: 15px;
+  font-family: Roboto;
+}
+.loader-container {
+  margin-left: 85px;
+  margin-top: 85px;
+}
+.search-input {
+  background: transparent;
+  margin-top: 20px;
+  /* margin-left: 300px; */
+  background-color: white;
+  padding: 8px;
+  width: 400px;
+  align-self: center;
+  border: 1px none #b6c5ff;
+  outline: none;
+}
+.search-icon {
+  background-color: #2c364c;
+  padding: 5px;
+  color: white;
+  height: 36px;
+  width: 36px;
+  border-style: none;
+}
+
+.search-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 45px;
+}
+
+.btn-search {
+  border: 1px solid #b6c5ff;
+  background-color: #2c364c;
+  padding: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+}
+.render-jobs-container {
+  padding-right: 30px;
+  align-self: center;
+}
+.jobs-container {
+  padding-left: 0;
+}
+.employement-type-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: roboto;
+}
+.failure-image {
+  width: 400px;
+  height: 250px;
+}
+.retry-button {
+  border: none;
+  background-color: #6366f1;
+  padding: 8px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.no-jobs {
+  width: 450px;
+  height: 250px;
+  margin-top: 35px;
+}
+.no-jobs-heading {
+  color: #ffffff;
+  font-family: Roboto;
+}
+.no-jobs-para {
+  color: #ffffff;
+  font-family: Roboto;
+}
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  margin-top: 100px;
+}
+filter-groups {
+  display: flex;
+  justify-content: flex-start;
+}

@@ -1,0 +1,11 @@
+.checkBox-type {
+  align-self: center;
+  align-items: center;
+  display: flex;
+}
+.hr-line {
+  width: 300px;
+}
+.label {
+  width: 100px;
+}
